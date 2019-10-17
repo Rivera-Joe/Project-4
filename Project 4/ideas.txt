@@ -1,0 +1,32 @@
+nav bar:
+horizontal:
+
+Home Lodging Fishing Hunting About Us
+
+
+........................................
+
+vertical:
+* -- jquery drop down
+Home
+*Lodging - Pintail - Blue Cat - Green Teal
+*Fishing
+*Hunting
+About Us
+......................................
+
+
+
+main:
+Logo
+
+
+
+
+
+
+
+
+footer:
+contact us
+social media - link to each photo
