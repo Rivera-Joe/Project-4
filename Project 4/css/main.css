@@ -1,1 +1,16 @@
 /* css  */
+
+/* reset all margin and padding  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #000;
+}
+header > #logo{
+    width: 50%;
+    margin-left: 25%;
+}
