@@ -4,13 +4,95 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: verdana;
 }
 
 header{
     width: 100%;
-    background-color: #000;
 }
 header > #logo{
     width: 50%;
-    margin-left: 25%;
+    margin-left: 23%;
+}
+
+
+body{
+  background-color:#909090;
+}
+/* c4c5ca */
+
+/*  */
+.example{
+  /* border: .3em solid #d3d3d3; */
+
+  width: 85%;
+  margin-top: 3em;
+  padding: 2em 1em;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.5em;
+
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 2em;
+  background-color: #0669ba;
+}
+
+
+nav{
+  overflow: hidden;
+  background-color: #0c0;
+  width: 100%;
+}
+
+nav a{
+  float: left;
+  font-size: 1.2em;
+  text-align: center;
+  width: 8em;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+.dropDown{
+  float: left;
+  overflow: hidden;
+}
+
+.dropDown .dropButton{
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  padding: 1em 4.5em;
+  background-color: inherit;
+  margin: 0;
+
+}
+
+nav a:hover, .dropDown:hover .dropButton{
+  background-color: #070;
+  cursor: pointer;
+}
+
+.ddContent{
+  display: none;
+  position: absolute;
+  background-color: #0e0;
+  z-index: 1;
+}
+
+.ddContent a{
+  float: none;
+  padding: 1em 2.26em;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.ddContent a:hover{
+  background-color: #0c0;
+  cursor: pointer;
+}
+
+.dropDown:hover .ddContent{
+  display: block;
 }
